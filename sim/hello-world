@@ -1,0 +1,25 @@
+#! /classes/ece4750/install/stow-pkgs/x86_64-rhel7/bin/vvp
+:ivl_version "11.0 (stable)" "(v11_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/classes/ece4750/install/stow-pkgs/x86_64-rhel7/lib/ivl/system.vpi";
+:vpi_module "/classes/ece4750/install/stow-pkgs/x86_64-rhel7/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/classes/ece4750/install/stow-pkgs/x86_64-rhel7/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/classes/ece4750/install/stow-pkgs/x86_64-rhel7/lib/ivl/v2005_math.vpi";
+:vpi_module "/classes/ece4750/install/stow-pkgs/x86_64-rhel7/lib/ivl/va_math.vpi";
+:vpi_module "/classes/ece4750/install/stow-pkgs/x86_64-rhel7/lib/ivl/v2009.vpi";
+S_0x15ec4d0 .scope package, "$unit" "$unit" 2 1;
+ .timescale 0 0;
+S_0x15ec660 .scope module, "top" "top" 3 1;
+ .timescale 0 0;
+    .scope S_0x15ec660;
+T_0 ;
+    %vpi_call/w 3 3 "$display", "Hello World" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "-";
+    "hello-world.v";
